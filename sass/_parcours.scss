@@ -1,0 +1,71 @@
+.parcours-bg{
+    width: 90%;
+    height: auto;
+    background: map-get($map: $colors, $key: color7);
+    padding: 5rem 0 5rem 0;
+    margin: auto;
+    box-shadow: black 5px 10px 50px;
+}
+#parcours{
+    width: 90%;
+    margin: auto;
+    text-align: left; 
+    background:map-get($map: $colors, $key: color9); 
+    height:auto;  
+    padding: 3rem 4rem 5rem 4rem;
+    font-size: 1.2rem;
+    color: map-get($map: $colors, $key: color3) ;
+    box-shadow: black 5px 10px 50px;
+}
+#parcours h3{
+    padding-bottom: 1.5rem;
+    color: map-get($map: $colors, $key: color8);
+    text-shadow: black 1px 3px 4px;
+}
+.parcours h4 {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+}
+.parcours h6 {
+    font-style: italic;
+    color: rgba(8, 8, 8, 0.73);
+    margin-left: 1.5rem;
+}
+.parcours p {
+    line-height: 1.9rem;
+}
+
+.timeline {
+    border-top: 3px solid;
+    border-image: linear-gradient(to left,  #2f3640 , #ffffff);
+    border-image-slice:1 ;
+    margin: 0;
+    padding: 1.5rem;
+    position: relative;
+
+}
+.timeline:nth-child(1):after {
+    content: '▲';
+    color:  #2f3640 ;
+    position: absolute;
+    top: -10px;
+    right: -11px;
+    box-sizing: content-box !important;
+}
+.timeline:nth-child(1){
+    border-bottom: 3px solid;
+    border-top: none;
+    width: 80%;
+}
+.timeline:nth-child(2) {
+    border-top: none;
+}
+
+.timeline:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+}
+.timeline:nth-child(even) {
+    border-left: 3px solid;
+    padding-right:0;
+}

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    background: linear-gradient( rgba(243, 242, 242, 0.192), #ff4e5aa2), url(img.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center; 
+    font-family: "patrick hand"; 
+    list-style: none;
+    color:#6b1a21;
+    font-size: 1.5rem;
+}
+.container form:nth-child(1) {
+    position: absolute;
+    width: 40%;
+    background-color: #fdF0f1;
+    margin-top: 13%;
+    margin-left: 30%;
+    opacity: 85%;
+    height: auto;
+    
+}
+.container form:nth-child(1) ul:nth-child(2){
+    list-style: none;
+}
+.container form:nth-child(1) h3:nth-child(1),.container form:nth-child(1) ul:nth-child(2) li, .container form:nth-child(1) h3:nth-child(3), #nombre, #response {
+    margin-top: .9rem;
+}
+#nombre{
+    font-size: 1rem;
+    padding: .2rem;
+    color: #6b1a21;
+    border: 1px solid #6b1a21;
+}
+#valider {
+    background-color: #6b1a21;
+    padding: .4rem;
+    border-radius: 5px;
+    border: 1px solid ;
+    color: #fdF0f1;
+}
+#valider:hover {
+    background-color: #fdF0f1;
+    color: #6b1a21;
+}
+#response{
+    margin-bottom: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#ff4e5a
+#6b1a21
+#e2e2e2
+#1c2f36 
+#fdF0f1*/

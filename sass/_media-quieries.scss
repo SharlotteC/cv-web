@@ -1,0 +1,285 @@
+@media screen and (min-width:1500px){
+    header  h1{
+    margin-bottom:2rem ;
+    font-size: 3.5em;
+    }
+    header h2{
+        margin: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    header div div.container div{
+    height: 13rem !important;
+    font-size: 1.3rem !important;
+    }
+    .d-none{
+        padding-top: 0 !important;
+    }
+    #portfolio{
+        margin-left:15rem ;
+    }
+    #portfolio  div.legende{
+        margin-left: 8rem;
+    }
+    #parcours{
+        min-width: 80rem !important;
+    }
+    .pictures{
+        max-width: 1200px !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:1300px){
+    header div div.button {
+        margin-top: 5.5rem;
+}
+    header h1{
+        font-size: 2.5rem;
+    }
+    header h2 {
+        font-size: 2rem !important;
+    }
+    #myText{
+        margin-top: -1rem;
+        font-size: 1.1rem;
+    }
+    #portfolio .legende{
+        margin-left: .5rem;
+    }
+    .hobbies{
+        height: 100%;
+    }
+    .cloud{
+    font-size: 1.5rem !important;
+    }
+    #other-skills h3{
+    font-size: 2.5rem !important;
+    }
+    #formation div{
+    margin-left : 1.5%;
+    }
+    }
+
+@media screen and (max-width:1200px){
+    #line{
+        margin-bottom: 10px;
+    }
+    header div div.button{
+        margin-top: 7rem;
+    }
+    #myText{
+        font-size: 1.1rem;
+        margin-top: -1.5rem;
+    }
+    #formation h3, #language h3 {
+        font-size: 1.9rem !important;
+    }
+    .counter{
+        margin-left: 4%!important;
+    }
+}  
+@media screen and (max-width:1000px){
+#other-skills h3{
+    font-size: 2.1rem !important;
+    padding-bottom: 10rem !important;
+    }
+}
+
+@media screen and (max-width:950px){
+    header {
+        width: 98%;
+    }
+    #myText{
+        font-size: .9rem;
+        margin-top: -.5rem;
+    }
+    header div div.button{
+        margin-top: 5rem;
+    } 
+    .content{
+        overflow: hidden;
+    }  
+    #formation, #language{
+        width: 40% ;
+    }
+    .counter{
+        margin-left: 1%!important;
+    }
+    #parcours{
+        width: 600px;
+    }
+    .img-container img{
+        max-width: 300px;
+    }
+    .legende{
+        font-size: .9rem !important;
+    }
+
+    .network{
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+    }
+}
+
+@media screen and (max-width:820px){
+    header{
+        margin-top: 1rem !important;
+    }
+    #navbar{
+        display: none;
+    }
+    header{
+        height: 50rem;
+        clip-path:none
+    }
+    h1{
+        font-size: 2rem !important;
+        
+        padding: 4rem 0 1rem 0 ;
+    }
+    h2.aos-item{
+        font-size: 1.7em !important;
+        padding: 20px 0 0 0 ;
+    }    
+    header div div.button {
+        margin-top: .5rem;
+}
+    .portable{
+        margin-top: 3rem;
+        padding: 1.7rem;
+        display: flex;
+        font-size: 1rem;
+    }
+    .content{
+        display: block;
+        clip-path: none;
+        height: 68rem;
+        padding-top: 3rem;
+        width: 100%;
+        overflow: hidden;
+    }
+    #language{
+        margin:auto;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 89% 88%, 11% 88%);
+        text-align: center;
+        padding: 3rem 0 0  1rem;
+        height: 33rem;
+    }
+    #formation{
+        margin: auto;
+        padding: .6em 0 0 0;
+        width: 100%;
+        height: 33rem;
+        clip-path: polygon(11% 0, 89% 0, 100% 88%, 0 88%);
+    } 
+    #formation h3{
+        margin-top: -2rem !important;
+    }
+    #formation h5 {
+        text-align: center; 
+    }
+    .counter{
+        width: 20rem;
+        margin: auto !important;
+    } 
+    .parcours-bg{
+        clip-path: none;
+        padding-bottom: 5rem;
+    }
+    .parcours{
+        top: 3rem;
+        max-width:90%;
+        padding-bottom: 1.5rem;
+    }
+    .parcours h3{
+    font-size: 2rem;
+    }
+    .parcours h4 {
+    font-size: 1.7rem;
+    }
+    .timeline:nth-child(1){
+        border-bottom: 3px solid;
+        border-top: none;
+        width: 100%;
+    } 
+
+    .projet{
+        margin-left: -1.5rem;
+    }
+    .legende {
+        opacity: 1;
+        margin:1rem 0 0 0;
+        padding: 0;
+    }
+    .legende h4{
+        font-size: 1rem;
+    }
+    .legende p{
+        font-size: .9rem;
+    }
+    .hobbies h3{
+        padding-bottom: 7rem;
+    }
+    .flip-box-back{
+        font-size: .7rem !important;
+    }
+    .network{
+        font-size: 2rem;
+        padding: .5rem 1rem;
+    }
+    #contact{
+        font-size: 2rem !important;
+    }
+} 
+@media screen and (max-width:600px){
+    body {
+        background-size: cover;
+    }
+    header{
+        overflow: hidden;
+    }
+    header div div.button{
+        margin-top: -1rem;
+    }
+    .projet{
+        margin-left: -4rem !important;
+    }
+    #other-skills h3{
+        font-size: 1.5rem !important;
+    }
+    .cloud{
+        font-size: 1.1rem !important;
+    }
+    .parcours {
+        padding: .7rem !important;
+    }
+    .parcours h3{
+        font-size: 2.3rem !important;
+    }
+    .parcours h4{
+        font-size: 1.5rem !important;
+    }
+    #portfolio{
+        /* padding-top: 1rem; */
+        text-align: center !important;
+        padding: .5 !important;
+        overflow: hidden;
+
+    }
+    #portfolio h3 {
+        margin-left: -2rem !important;
+    }
+    .projet{
+        display: block;
+        padding-left: 2rem;
+        
+    }
+    .cadre{
+        padding-top: .8rem;
+    }
+    #name, #email, #message{
+        width: 70%;
+    }
+    
+}

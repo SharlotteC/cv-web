@@ -1,0 +1,47 @@
+#formation{
+    padding: 3.5rem 0 2rem 2rem;
+    width: 35%;
+    max-width: 35rem;
+    height: 39rem;
+    clip-path: polygon(0 0, 100% 14%, 100% 86%, 0 100%);
+    background: map-get($map: $colors, $key: color7);
+    text-align: center;
+    margin-right: 13%;
+}
+#formation h3{
+    color:  map-get($map: $colors, $key: color8); 
+    text-shadow: #080808bd 1px 3px 3px;
+    padding-top: 3rem;
+}
+
+#autodidact, #fcc, #occ { 
+    padding: 1rem 0 0 1%;
+}
+#formation h5 {
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-bottom: .5rem;
+    color: map-get($map: $colors, $key: color6);
+    text-align: left; 
+}
+.counter{
+    text-align: center;
+    display: flex;
+    margin-left: 10%!important;
+}
+.data{
+    border: 1px solid map-get($map: $colors, $key: color6);
+    width: 8rem;
+    margin: 0 6%;
+    box-shadow: black 3px 2px 5px;
+    height: 4rem;
+}
+.counter-value{
+    font-size: 1.2em;
+    color: map-get($map: $colors, $key: color6); 
+    padding-top: .8rem;
+}
+.data span{
+    font-size: 1rem;
+    color: map-get($map: $colors, $key: color6); 
+}

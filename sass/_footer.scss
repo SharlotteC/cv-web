@@ -1,0 +1,31 @@
+footer{
+    text-align: center;
+    padding-top: 8rem;
+}
+footer h3 {
+    padding: 0 0 5rem 0;
+    font-size: 2.5rem;
+    color: map-get($map: $colors, $key:color8);
+    text-shadow: black 1px 3px 4px;
+}
+.footer-icons{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 60%;
+    margin-bottom: 2rem;
+}
+.network{
+    font-size: 2.5rem;
+    border: 1px solid map-get($map: $colors, $key:color6);
+    padding: 2rem 2.5rem;
+    color: map-get($map: $colors, $key:color6);
+    z-index: -1 !important;
+    border-radius: 50%;
+    background: map-get($map: $colors, $key:color12);
+}
+.network:hover, textarea:hover, input:hover, .form-button:hover{
+    background: map-get($map: $colors, $key:color6);
+    color: map-get($map: $colors, $key:color13);
+    transition: all .3s ease-in-out;
+}

@@ -1,0 +1,116 @@
+#navbar{
+    background-color:map-get($map: $colors, $key:color2 );
+    opacity: .95;
+    height: 3rem;
+    transition: .7s;
+    width: 100%;
+    margin: auto;
+}
+.navbar-nav{
+    width: 80% !important;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+li.nav-item:nth-child(2) a:nth-child(1),li.nav-item:nth-child(1) a:nth-child(1),li.nav-item:nth-child(3) a:nth-child(1),li.nav-item:nth-child(4) a:nth-child(1),li.nav-item:nth-child(5) a:nth-child(1){
+    color: map-get($map: $colors, $key: color3) !important;  
+}
+li.nav-item:nth-child(2) a:nth-child(1):hover,li.nav-item:nth-child(1) a:nth-child(1):hover,li.nav-item:nth-child(3) a:nth-child(1):hover,li.nav-item:nth-child(4) a:nth-child(1):hover,li.nav-item:nth-child(5) a:nth-child(1):hover{
+    color: map-get($map: $colors, $key: color1) !important;
+}
+
+header {
+    margin-top: 3rem !important;
+    text-align: center;
+    height: 110vh;
+    background: linear-gradient(#d1d1d1fa, #2f3640b4);
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    box-shadow: black 5px 10px 50px;
+    margin: auto;
+}
+
+h1{
+    padding: 5rem 0 .7rem 0; 
+    font-family:map-get($map: $fonts, $key: font2),sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: map-get($map: $colors, $key: color2);
+    text-shadow: #080808bd 1px 3px 3px;
+}
+header div h2{
+    margin-bottom: 3rem;
+    
+}
+#line{
+    height: 2px;
+    background-color:map-get($map: $colors, $key:color2 );
+    width: 25%;
+    margin: 0 auto;
+    margin-bottom: 1.3rem;
+}
+.presentation {
+    height: 12rem;
+    margin-top: 2rem;
+}
+.infos{
+    border: 1px solid map-get($map: $colors, $key: color6);
+    outline: 2px solid map-get($map: $colors, $key: color7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 0;
+    box-shadow: rgba(8, 0, 0, 0.35) 15px 15px 15px;
+}
+.portable{
+    display: none;
+}
+.infos:hover{
+    transition: 1s;
+    transform: scale(1.4);
+}
+.photo{
+    border: 1px solid map-get($map: $colors, $key: color6);
+    outline: 2px solid map-get($map: $colors, $key: color7);
+    position: relative;
+    box-shadow: rgba(12, 2, 2, 0.35) 15px 15px 15px;
+}
+
+.photo img {
+    max-width: 11rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 3px 15px rgb(10, 10, 10);
+}
+.photo:hover {
+    transition: 1s;
+    transform: scale(1.3);
+}
+
+header .button{
+    margin-top: 9rem;
+}
+header .button a {
+    padding: .6rem .6rem;
+    border: 1px solid map-get($map: $colors, $key: color6);;
+    width: 10rem;
+    color: map-get($map: $colors, $key: color6);;
+    background: #2f3640b4;
+}
+header .button:hover a {
+    background: map-get($map: $colors, $key: color6);
+    color:   map-get($map: $colors, $key: color5);
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+}
+.d-none{
+    padding: 1rem 4.2rem !important;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./index.js"></script>
+    <title>Mastermind</title>
+</head>
+<body>
+    <div class="content">
+        <div class="rules">
+            <h3>
+                Règles du jeu
+            </h3>
+            <p>
+                Trouve la combinaison secrète 
+                <br>
+                <br>
+                Choisis 4 couleurs par ligne
+                <br>
+                <br>
+                Si les points sont jaunes le pion est à la bonne place
+                <br>
+                <br>
+                Si les points sont blancs la couleur est présente dans le code mais le pion n'est pas  à la bonne place 
+            </p>
+        </div>
+        <h1 id="title">MasterMind</h1>
+        <div class="fullBoard">
+
+            <div class="board">
+                <div class="lineBoard0 line">
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class="">
+                        <div class=""></div>
+                        <div class=""></div>
+                        <div class=""></div>
+                        <div class=""></div>
+                    </div>
+                </div>
+                <div class="lineBoard1"> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell4"></div>
+                    </div>
+                </div>
+                <div class="lineBoard2"> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard3"> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard4 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div>  
+                <div class="lineBoard5 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard6 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard7 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard8 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard9 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard10 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard11 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div> 
+                <div class="lineBoard12 "> 
+                    <div class="cellBoard cell1"></div>
+                    <div class="cellBoard cell2"></div>
+                    <div class="cellBoard cell3"></div>
+                    <div class="cellBoard cell4"></div>
+                    <div class="checkBoard">
+                        <div class="checkCell cell1"></div>
+                        <div class="checkCell cell2"></div>
+                        <div class="checkCell cell3"></div>
+                        <div class="checkCell cell3"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="other">
+            <div id="cache"></div>
+                <h5 id="titre-code">Code Secret</h5>
+                <div class="code" id="code">
+                    <div class="secretColor" id="secretColor1"></div>
+                    <div class="secretColor" id="secretColor2"></div>
+                    <div class="secretColor" id="secretColor3"></div>
+                    <div class="secretColor" id="secretColor4"></div>
+                </div>
+                <div class="colorBoard">
+                    <div class="color" id="blue"></div>
+                    <div class="color" id="orange"></div>
+                    <div class="color" id="red"></div>
+                    <div class="color" id="yellow"></div>
+                    <div class="color" id="pink"></div>
+                    <div class="color" id="green"></div>
+                </div>
+                <button type="submit" id="check">Check</button>
+        </div>
+    </div>
+    
+    <div class="popupBox" id="popupBox">
+        <div class="popup">
+        <h2 id="message-fin"></h2>
+        <button id="play-button">Play Again</button>
+    </div>
+        
+</body>
+</html>
+

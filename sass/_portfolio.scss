@@ -1,0 +1,80 @@
+#portfolio{
+    padding: 5rem 1rem 2rem 1.5rem;
+    color: map-get($map: $colors, $key: color8);
+    height: auto;
+    margin: 5rem 0 10rem 8%!important;
+}
+
+#portfolio h3{
+    padding-bottom: 2rem;
+    color: map-get($map: $colors, $key: color8);
+    text-shadow: black 1px 3px 4px;
+}
+.projet{
+    display: flex;
+}
+.cadre{
+    position: relative;
+    padding: 0 1rem 1rem 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 1rem .7rem;
+    text-align: center;
+}
+.img-container{
+    width: 90%;
+    max-width: 30rem;
+    overflow: hidden;
+    margin: 2.5rem auto;
+    box-shadow: 20px 15px 50px  black ;
+}
+.img-container img {
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+}
+.img-container:hover img {
+    transform: scale(1.2);
+    transform-origin: 50% 50%;
+    filter: contrast(130%);
+    transition: .2s ease-in-out;
+}
+.cadre::before, .cadre::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border: 1px solid map-get($map: $colors, $key: color3);
+    transition: all .3s ease;
+    border-radius: 2px;
+    z-index: -1;
+}
+.cadre::before{
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+.cadre::after{
+    bottom:1rem;
+    right: 15px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}
+.cadre:hover::before, .cadre:hover::after{
+    border-color:map-get($map: $colors, $key: color3);
+    width: 100%;
+    height: 100%;
+}
+.legende{
+    font-size: 1.2rem !important;
+    margin-left:10px;
+    max-width: 30rem;
+    padding: 3rem 0 0 2rem;
+    opacity: 0;
+    transition: 2s ease-in-out;
+}
+.projet:hover .legende {
+    opacity: 1;
+    transition: 1s ease;
+}

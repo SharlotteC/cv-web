@@ -1,0 +1,59 @@
+#tetris{
+    width: 2%;
+    margin: auto;
+}
+.content{
+    
+    display: flex;
+    height: 51rem;
+    padding-top: 6rem;
+}
+#language{
+    margin-left: 13%;
+    padding: 6rem 4rem 4rem 3rem;
+    height: 39rem;
+    width: 35%;
+    max-width: 35rem;
+    background: map-get($map: $colors, $key: color7);
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0 86%);
+    text-align: center;
+    color:  map-get($map: $colors, $key: color8);
+    
+}
+#language h3 {
+    text-shadow: #080808bd 1px 3px 3px;
+    color:  map-get($map: $colors, $key: color8);
+}
+#language .bar {
+    padding: .7rem 0 .4rem 0;
+    letter-spacing: .1em;
+}
+
+#line1, #line2, #line3, #line4, #line5, #line6, #line7 {
+    height: 1.5px;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2px;
+}
+#line1{
+    background-color: #E96228;
+}
+#line2{
+    background-color: #264ADE;
+}
+#line3{
+    background-color: #EFD81D;
+}
+#line4{
+    background-color: #6E41A4;
+}
+#line5{
+    background-color: #C76494;
+}
+#line6{
+    background-color: #7377AD;
+}
+
+#line7{
+    background-color: #5ED3F3;
+}

@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#banner {
+    height: 100vh;
+    background: linear-gradient( rgba(241, 239, 241, 0), #d5e4b8), url(image/bg1-afpa.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: "Lora";
+}
+/* -------------------------------------top page-------------------------- */
+
+#banner .bandeau{
+    width: 100%;
+    background-color: white;
+    height: 3rem;
+}
+.logo  {
+    position: absolute;
+    height: 3rem;
+    left: 0;
+}
+.logo-ban  {
+    height: 3rem;
+}
+.logo-changement{
+    text-align: center;
+    
+}
+/* -------------------------------carousel et contenu-------------------- */
+
+.carousel-item {
+    top: 100%;
+    transform: translateY(-50%);
+}
+.carousel-inner {
+    height: 85vh; 
+
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #e3007e;
+}
+a.carousel-control-next{
+    left: 40%;
+    min-width: 32px ;
+}
+.carousel-caption  {
+    background-color: white;
+    box-shadow:  #87bb34 0px 10px 20px;
+    width: 65%;
+    margin-left: 2.25%;
+    height: 70vh;
+}
+.carousel-caption h5 {
+color: #e3007e;
+font-size: .9rem;
+}
+.carousel-caption p {
+padding:  0 7rem 0 6rem;
+}
+
+/* orientaion */
+
+div.carousel-item:nth-child(1) div:nth-child(1) img:nth-child(1){
+    max-width: 70px;
+    position:absolute;
+    left: .5rem;
+    top: .5rem;
+    box-shadow:  #e3007e 1px 1px 4px 1px;
+}
+div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3) h6{
+    font-size: .7rem;
+    border-bottom: 2px solid #e3007e;
+    padding-bottom: .2rem;
+}
+div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3) {
+    color: black;
+}
+div.carousel-item:nth-child(1) div:nth-child(1) p:nth-child(3){
+    color: black;
+}
+div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3)  p {
+    font-size: .6rem;
+    margin-bottom: .8rem;
+}
+div.carousel-item:nth-child(1) div:nth-child(1) img:nth-child(4) {
+    position: relative;
+    width: 35%;
+}
+div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3) p:nth-child(6){
+    margin-bottom: 1rem;
+}
+
+/* formation */
+
+div.carousel-item:nth-child(2) div:nth-child(1) img:nth-child(1) {
+    max-width: 70px;
+    position:absolute;
+    top: .5rem;
+    left: .5rem;
+    box-shadow:  #e3007e 1px 1px 4px 1px ;
+    padding-bottom: 4px;
+}
+div.carousel-item:nth-child(2) div:nth-child(1) div {
+    color: black;
+}
+div.carousel-item:nth-child(2) div:nth-child(1) div:nth-child(3) h6{
+    font-size: .7rem; 
+    border-bottom: 2px solid #e3007e;
+    padding-bottom: 3px;
+}
+div.carousel-item:nth-child(2) div:nth-child(1) div:nth-child(3) p {
+    font-size: .6rem;
+    margin: .5rem;
+}
+
+/* formulaire inscrption  */
+
+div.carousel-item:nth-child(3) div:nth-child(1) img:nth-child(1){
+    max-width: 75px;
+    position:absolute;
+    left: .5rem;
+    top: .6rem;
+    box-shadow:  #e3007e 1px 1px 4px 1px ;
+    padding-bottom: 4px;
+}
+form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ; 
+} 
+.formulaire {
+    margin-top: 2.5rem;
+}
+div.carousel-item:nth-child(3) div:nth-child(1) h5:nth-child(2){
+    border-bottom: 2px solid #e3007e;
+}
+.formulaire .case {
+    margin-top: 1rem;
+    height: 1.5rem;
+    width: 17rem;
+    font-size: 15px;
+    font-family: "Lora", sans-serif;
+    background-color: #ced6e0;
+    border-radius: 4px;
+    border: none;
+    box-shadow:  #e3007e 0px 1px 2px;
+}
+.btn-compte {
+    padding: 6px ;
+    font-size: .9rem;
+    font-family: "Lora", sans-serif;
+    color: white;
+    border: none;
+    background-color: #747d8c;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 4rem 0 0.2rem 0
+}
+.btn-compte:hover{
+    background-color: #e3007e;
+    color: white;
+}
+
+/* contact */
+
+div.carousel-item:nth-child(4) div:nth-child(1){
+    color: black;
+}
+div.carousel-item:nth-child(4) div:nth-child(1) img:nth-child(1) {
+    max-width: 70px;
+    position:absolute;
+    left: .5rem;
+    top: .5rem;
+    box-shadow:  #e3007e 1px 1px 4px 1px ;
+    padding-bottom: 4px;
+}
+div.carousel-item:nth-child(4) div:nth-child(1) h5:nth-child(2) {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #e3007e;
+}
+.contact h6{ 
+    border-bottom: 2px solid #e3007e;
+    padding: 1rem;
+    font-size: .8rem;
+    color: #87bb34 
+}
+.contact p {
+    padding-top: .3rem;
+    font-size: .8rem;
+    border-bottom: 1px solid #e3007e;
+}
+.contact img:nth-child(6){
+    position: relative;
+    width: 25%;
+}
+
+@media (min-width: 1200px) {
+
+    /* orientation */
+    .carousel-caption h5 {    
+        font-size: 1.7rem;
+    }
+    div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3) h6{
+            font-size: 1rem;
+            padding: .5rem;
+    }
+    div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3)  p {
+            font-size: 1rem;
+    }
+    /* formation */
+    div.carousel-item:nth-child(2) div:nth-child(1) div:nth-child(3) h6{
+        font-size: 1rem; 
+        padding: .8rem;
+    }
+    div.carousel-item:nth-child(2) div:nth-child(1) div:nth-child(3) p {
+        font-size: .8rem;
+        padding: .5rem;
+    }
+    /* inscription */
+    div.carousel-item:nth-child(3) div:nth-child(1) img:nth-child(1){
+        width: 100%;
+    }
+    .formulaire {
+        margin-top: 2rem;
+    }
+    div.carousel-item:nth-child(3) div:nth-child(1) h5:nth-child(2){
+        border-bottom: 2px solid #e3007e;
+        padding: 4rem;
+    }
+    .formulaire .case {
+        margin-top: 1rem;
+        height: 2rem;
+        width: 17rem;
+        font-size: 20px;
+        font-family: "Lora", sans-serif;
+    }
+    .btn-compte {
+        font-size: 1rem;
+        margin: 4rem 0 0.2rem 0
+        /* contact */
+    }
+div.carousel-item:nth-child(4) div:nth-child(1) h5:nth-child(2) {
+    padding-bottom: 2rem;
+}
+.contact p {
+    padding-top: .8rem;
+    font-size: 1rem;
+}
+.contact img:nth-child(6){
+    position: relative;
+    width: 30%;
+}
+
+}
+
+@media (max-width: 800px){
+
+    .carousel-caption h5 {    
+        font-size: .9rem;
+        margin: 0;
+    }
+    /*  orientation */
+    div.carousel-item:nth-child(1) div:nth-child(1) img:nth-child(1){
+        max-width: 60px;
+    }
+    div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3) h6{
+            font-size: .65rem;
+            padding: .3rem;
+    }
+    div.carousel-item:nth-child(1) div:nth-child(1) div:nth-child(3)  p {
+            font-size: .6rem;
+    }
+
+    /*formation */
+    div.carousel-item:nth-child(2) div:nth-child(1) img:nth-child(1) {
+        max-width: 60px;
+        top: .5rem;
+    }
+    div.carousel-item:nth-child(2) div:nth-child(1) div:nth-child(3) h6{
+        font-size: .65rem; 
+        padding: .4rem;
+    }
+    div.carousel-item:nth-child(2) div:nth-child(1) div:nth-child(3) p {
+        font-size: .57rem;
+        padding: .3rem;
+        margin: 0;
+    }
+
+/* inscriptrion */
+    div.carousel-item:nth-child(3) div:nth-child(1) img:nth-child(1){
+        max-width: 65px;
+        top: .7rem;
+    }
+    .formulaire {
+        margin-top: 1rem;
+    }
+    div.carousel-item:nth-child(3) div:nth-child(1) h5:nth-child(2){
+        border-bottom: 2px solid #e3007e;
+        padding: 1rem;
+    }
+    .formulaire .case {
+        margin-top: .5rem;
+        height: 1.7rem;
+        width: 17rem;
+        font-size: 11px;
+        font-family: "Lora", sans-serif;
+    }
+    .btn-compte {
+        font-size: .7rem;
+        margin: 2rem 0 0.2rem 0
+    }
+    /* contact */
+    
+    div.carousel-item:nth-child(4) div:nth-child(1) img:nth-child(1) {
+        max-width: 60px;
+    }
+    .contact h6{ 
+        border-bottom: 1px solid #e3007e;
+        padding: 1rem;
+        font-size: .7rem;
+    }
+    .contact p {
+        padding-top: .3rem;
+        font-size: .65rem;
+        padding-bottom: 1rem;
+    }
+    .contact > img:nth-child(6){
+        position: relative;
+        width: 25%;
+    }
+}
+
+/* -- j'ai travaillé pour une borne de 800 x 600, néenmoins j'ai fait un peu de responsive pour des écrans un chouïa plus grands ! */

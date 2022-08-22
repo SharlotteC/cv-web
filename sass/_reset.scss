@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Handlee&family=Kalam:wght@300&family=Neuton:wght@300&family=Vollkorn&display=swap');
+@import "variables";
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body { 
+    color: map-get($map: $colors, $key: color1 );  
+    background: url(/up/media/bkg.jpg) fixed;
+    font-family: map-get($map: $fonts, $key: main-font),sans-serif;
+}
+h2, h3 {
+    font-family: map-get($map: $fonts, $key: font3), sans-serif ;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: map-get($map: $colors, $key: color2);
+    font-size: 3rem !important;
+}
+li{
+    list-style: none;
+}
+
+h5 {
+    font-size: .9rem !important;
+}
